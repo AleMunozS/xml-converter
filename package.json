@@ -1,0 +1,14 @@
+{
+  "name": "xml-receiver",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "save-xml-service.js",
+  "scripts": {
+    "start": "node save-xml-service.js"
+  },
+  "dependencies": {
+    "basic-auth": "^2.0.1",
+    "dotenv": "^17.2.0",
+    "express": "^4.19.2"
+  }
+}
