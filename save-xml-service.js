@@ -10,7 +10,7 @@ loadEnv()
 const PORT          = process.env.PORT || 3000
 const AUTH_USER     = process.env.AUTH_USER     || 'n8n'
 const AUTH_PASSWORD = process.env.AUTH_PASSWORD || 'supersecret'
-const TARGET_DIR    = 'C:\\zonalibre\\crimsonlogic\\pendientes'
+const TARGET_DIR = '/zonalibre/crimsonlogic/pendientes'
 
 // ──────────────── App setup ───────────────
 const app = express()
